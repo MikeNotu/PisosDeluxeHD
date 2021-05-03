@@ -10,6 +10,7 @@ namespace PisosDeluxeHD.Controllers
 {
     public class HomeController : Controller
     {
+        [Area("Customer")]
         public IActionResult Index()
         {
             return View();
