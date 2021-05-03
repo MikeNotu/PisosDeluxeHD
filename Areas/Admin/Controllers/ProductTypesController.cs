@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using PisosDeluxeHD.Data;
 using Microsoft.AspNetCore.Mvc;
+using PisosDeluxeHD.Models;
 
 namespace GraniteHouse.Areas.Admin.Controllers
 {
@@ -23,5 +24,24 @@ namespace GraniteHouse.Areas.Admin.Controllers
         {
             return View(_db.ProductTypes.ToList());
         } 
+
+        //GET Create Action Method
+        public IActionResult Create()
+        {
+                return View();
+        }
+        //POST Create action Method
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(ProductTypes productTypes)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Add(productTypes);
+                await _db.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(productTypes);
+        }
     }
 }

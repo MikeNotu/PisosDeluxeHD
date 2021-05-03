@@ -61,7 +61,7 @@ using PisosDeluxeHD.Models;
             WriteLiteral("\r\n<br /><br />\r\n\r\n<div class=\"row\">\r\n    <div class=\"col-6\">\r\n        <h2 class=\"text-info\"> Product Type List</h2>\r\n    </div>\r\n    <div class=\"col-6 text-right\">\r\n        ");
             EndContext();
             BeginContext(269, 71, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d1b00680daac40a88d06a6bbad879d92", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34dda2ff05b649f88e31f75ecacda7e1", async() => {
                 BeginContext(313, 23, true);
                 WriteLiteral("&nbsp; New Product Type");
                 EndContext();
