@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using PisosDeluxeHD.Models;
 
 namespace PisosDeluxeHD.Data
 {
@@ -12,5 +13,7 @@ namespace PisosDeluxeHD.Data
             : base(options)
         {
         }
+
+        public DbSet<ProductTypes> ProductTypes { get; set; }
     }
 }
