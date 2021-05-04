@@ -8,9 +8,9 @@ using PisosDeluxeHD.Models;
 
 namespace PisosDeluxeHD.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
-        [Area("Customer")]
         public IActionResult Index()
         {
             return View();

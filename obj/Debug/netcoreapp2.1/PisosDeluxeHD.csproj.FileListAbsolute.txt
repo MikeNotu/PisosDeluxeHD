@@ -43,3 +43,9 @@ C:\Users\Mike\Desktop\codeThings\PisosDeluxeHD\obj\Debug\netcoreapp2.1\Razor\Are
 C:\Users\Mike\Desktop\codeThings\PisosDeluxeHD\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Users\Mike\Desktop\codeThings\PisosDeluxeHD\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
 C:\Users\Mike\Desktop\codeThings\PisosDeluxeHD\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs
+C:\Users\Mike\Desktop\codeThings\PisosDeluxeHD\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Index.cshtml.g.cs
+C:\Users\Mike\Desktop\codeThings\PisosDeluxeHD\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Create.cshtml.g.cs
+C:\Users\Mike\Desktop\codeThings\PisosDeluxeHD\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
+C:\Users\Mike\Desktop\codeThings\PisosDeluxeHD\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Edit.cshtml.g.cs
+C:\Users\Mike\Desktop\codeThings\PisosDeluxeHD\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Details.cshtml.g.cs
+C:\Users\Mike\Desktop\codeThings\PisosDeluxeHD\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Delete.cshtml.g.cs
